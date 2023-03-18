@@ -100,4 +100,10 @@ class SwipableStackController extends ChangeNotifier {
       duration: duration,
     );
   }
+   void reset() {
+    history.clear();
+    currentIndex = 0;
+    notifyListeners();
+  }
+}
 }
