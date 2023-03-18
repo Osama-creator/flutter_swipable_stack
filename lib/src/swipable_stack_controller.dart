@@ -106,4 +106,4 @@ class SwipableStackController extends ChangeNotifier {
     notifyListeners();
   }
 }
-}
+
